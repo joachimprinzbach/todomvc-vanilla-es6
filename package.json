@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "webpack": "webpack",
-    "build": "webpack"
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "css-loader": "^0.25.0",
