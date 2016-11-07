@@ -11,3 +11,4 @@ node_modules/todomvc-common/*
 dist
 node_modules
 .idea
+*.log

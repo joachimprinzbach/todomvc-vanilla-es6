@@ -2,8 +2,10 @@
   "private": true,
   "scripts": {
     "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "watche:": "webpack-dev-server --progress"
   },
   "dependencies": {
   },
@@ -15,6 +17,7 @@
     "less": "2.7.1",
     "less-loader": "2.2.3",
     "style-loader": "0.13.1",
-    "webpack": "2.1.0-beta.25"
+    "webpack": "2.1.0-beta.25",
+    "webpack-dev-server": "2.1.0-beta.10"
   }
 }
