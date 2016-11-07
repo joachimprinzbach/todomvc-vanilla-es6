@@ -1,8 +1,11 @@
+import '../lib/todo-base.js';
 import Controller from './controller';
 import {$on} from './helpers';
 import Template from './template';
 import Store from './store';
 import View from './view';
+
+require('./app.less');
 
 const store = new Store('todos-vanilla-es6');
 
