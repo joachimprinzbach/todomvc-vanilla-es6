@@ -5,8 +5,6 @@ import Template from './template';
 import Store from './store';
 import View from './view';
 
-require('./app.less');
-
 const store = new Store('todos-vanilla-es6');
 
 const template = new Template();
