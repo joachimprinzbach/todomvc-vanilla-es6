@@ -1,7 +1,4 @@
-const UglifyJsPlugin = require('webpack/lib/optimize/UglifyJsPlugin');
-
 module.exports = {
-
     entry: "./src/app.js",
 
     devtool: 'source-map',
@@ -28,7 +25,7 @@ module.exports = {
     },
 
     plugins: [
-        new UglifyJsPlugin({
+        new webpack.optimize.UglifyJsPlugin({
             sourceMap: true
         })
     ]
